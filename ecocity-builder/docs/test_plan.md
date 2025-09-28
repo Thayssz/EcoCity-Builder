@@ -29,19 +29,9 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 3. Matriz de Rastreabilidade
+## 3. Casos de Teste Detalhados
 
-| ID Teste      | Requisito | Tipo Teste   | Prioridade | Status    |
-|---------------|-----------|--------------|------------|-----------|
-| TST-RF001-001 | RF001     | Sistema      | Alta       | Pendente  |
-| TST-RF001-002 | RF001     | Integração   | Alta       | Pendente  |
-| ...           | ...       | ...          | ...        | ...       |
-
----
-
-## 4. Casos de Teste Detalhados
-
-### 4.1 Testes para RF001 - Navegação pela Tela Inicial
+### 3.1 Testes para RF001 - Navegação pela Tela Inicial
 
 **TST-RF001-001: Exibição da Tela Inicial**  
 - Pré-condições: Jogo instalado e executado  
@@ -68,7 +58,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-### 4.2 Testes para RF002 - Criação de Novo Mundo
+### 3.2 Testes para RF002 - Criação de Novo Mundo
 
 **TST-RF002-001: Criação com Dados Válidos**  
 - Pré-condições: Tela de criação de mundo aberta  
@@ -93,7 +83,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-### 4.3 Testes para RF005 - Gerenciamento de Recursos
+### 3.3 Testes para RF005 - Gerenciamento de Recursos
 
 **TST-RF005-001: Atualização Automática de Recursos**  
 - Pré-condições: Partida em andamento  
@@ -119,7 +109,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-### 4.4 Testes para RF006 - Construção de Infraestruturas
+### 3.4 Testes para RF006 - Construção de Infraestruturas
 
 **TST-RF006-001: Construção com Recursos Suficientes**  
 - Pré-condições: Recursos suficientes, menu construções aberto  
@@ -145,7 +135,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-### 4.5 Testes para RF008 - Eventos Climáticos
+### 3.5 Testes para RF008 - Eventos Climáticos
 
 **TST-RF008-001: Geração de Evento Aleatório**  
 - Pré-condições: Partida em andamento por 10 minutos  
@@ -171,7 +161,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 5. Testes de Integração
+## 4. Testes de Integração
 
 **TST-INT-001: Fluxo Completo Novo Jogo**  
 - Componentes: RF001 + RF002 + RF004 + RF005  
@@ -193,7 +183,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 6. Testes Não-Funcionais
+## 5. Testes Não-Funcionais
 
 **TST-RNF001-001: Performance com Múltiplas Construções**  
 - Requisito: RNF001  
@@ -217,15 +207,15 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 7. Ambiente de Teste
+## 6. Ambiente de Teste
 
-### 7.1 Configurações
+### 6.1 Configurações
 - OS: Windows 10, macOS, Linux  
 - Python: 3.8+  
 - Hardware Mínimo: 4GB RAM, 2GB espaço  
 - Hardware Recomendado: 8GB RAM, GPU básica  
 
-### 7.2 Ferramentas
+### 6.2 Ferramentas
 - Test Runner: pytest  
 - Cobertura: coverage.py  
 - Mock: unittest.mock  
@@ -233,7 +223,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 8. Cronograma
+## 7. Cronograma
 
 | Fase   | Data   | Atividades                      |
 |--------|-----------|---------------------------------|
@@ -245,7 +235,7 @@ O plano cobre testes para todos os Requisitos Funcionais (RF001-RF010) e Não-Fu
 
 ---
 
-## 9. Critérios de Saída
+## 8. Critérios de Saída
 - Todos os testes de Alta Prioridade passaram  
 - Cobertura de código ≥ 80%  
 - 0 bugs críticos abertos  
