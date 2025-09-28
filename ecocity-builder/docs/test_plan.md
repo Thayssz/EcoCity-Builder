@@ -1,4 +1,3 @@
-```markdown
 # Plano de Testes - EcoCity Builder
 
 ## 1. Introdução
